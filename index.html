@@ -16,8 +16,13 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <ul class="nav navbar-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" href="#Datos">Datos Personales</a>
             </li>
@@ -36,16 +41,17 @@
             <li class="nav-item">
               <a class="nav-link active" href="#Habilidades">Habilidades</a>
             </li>
-        </ul>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-  <main>
-    <div class="card text-bg-dark">
-      <img src="./Imagenes/Fondo.jpg" class="card-img" height="150">
-      <div class="card-img-overlay">
+  <main>  
+    <div class="Titulo">
+        <br>
         <h1>Estudiante en ingeniería en sistemas.</h1>
         <h2>Especialista en Linux, creación de paginas web, servicios y otros programas.</h2>
-      </div>
+        <br>
     </div>
     <br>
     <div class="card mb-3 DatosPersonales" id="Datos">
@@ -190,7 +196,7 @@
         <div class="col-md-3 col-sm-6">
           <h5>Lenguajes de programaci&oacute;n</h5>
           <br>
-          <b>Favoritos</b>
+          <b>Principales</b>
           <br>
           <ul>
             <li>C</li>
