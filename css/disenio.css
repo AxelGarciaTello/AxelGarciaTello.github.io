@@ -2,17 +2,6 @@ h1,h2,h3,h4,h5 {
     text-align:center;
 }
 
-.Imagenes{
-    width: 115px;
-    align-self: center;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    border: 10px solid black;
-}
-
 .Titulo {
     background-image: url("../Imagenes/Fondo.jpg");
     background-position: center center;
@@ -21,7 +10,18 @@ footer{
     color: white;
 }
 
-.btn{
+.tamanio-completo {
+    width: 100%;
+}
+
+.Imagenes{
+    width: 115px;
+    align-self: center;
+}
+
+.contenido-centro {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
